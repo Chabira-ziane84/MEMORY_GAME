@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="start-button">
+        <span>Start Game</span>
+    </div>
+
+    <div class="info-container">
+        <div class="name">Hello: <span></span></div>
+        <div class="correct">correct Tries: <span>0</span>
+            <div class="count-down">
+           
+            </div></div>
+        <div class="tries">Wrong Tries: <span>0</span></div>
+    </div>
+    <div class="block">
+        <div class="game-block" data-icon="chrome">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/chrome.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="chrome">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/chrome.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="erour">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/erreur-404.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="erour">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/erreur-404.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="css">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/fichier-css.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="css">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/fichier-css.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="html">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/html-5.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="html">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/html-5.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="apple">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/pomme.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="apple">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/pomme.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="telegramme">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/telegramme.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="telegramme">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/telegramme.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="discorde">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/discorde.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="discorde">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/discorde.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="domaine">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/domaine.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="domaine">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/domaine.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="github">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/github.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="github">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/github.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="paypal">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/pay-pal.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-icon="paypal">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/pay-pal.png" alt="">
+            </div>
+        </div>
+      
+    </div>
+    <audio id="back-ground" src="./music/rockstar.mp3" preload="none" loop></audio>
+    <audio id="success" src="./music/Correct .mp4" preload="none" ></audio>
+    <audio id="failed" src="./music/wrong.mp4" preload="none"></audio>
+    <audio id="win" src="./music/Congratulations, Abhinandan Status.mkv" preload="none" loop></audio>
+    <audio id="lost" src="./music/ring.mp3" preload="none" loop></audio>
+    
+    <div class="end">
+        <span class="first"></span>
+        <span class="second"></span>
+    </div>
+   <div class="allResult">
+    
+   </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
